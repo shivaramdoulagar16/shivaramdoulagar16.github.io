@@ -1,48 +1,170 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My Profile</title>
-</head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shivaram Doulagar | Profile</title>
 
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #4e73df, #1cc88a);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #333;
+}
+
+.container {
+    background: white;
+    width: 90%;
+    max-width: 700px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.profile-img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 4px solid #4e73df;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+h3 {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.section {
+    margin-top: 25px;
+    text-align: left;
+}
+
+.section h2 {
+    margin-bottom: 10px;
+    border-bottom: 2px solid #4e73df;
+    padding-bottom: 5px;
+    color: #4e73df;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+ul li {
+    margin-bottom: 6px;
+}
+
+a {
+    text-decoration: none;
+    color: #1cc88a;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #4e73df;
+}
+
+.contact p {
+    margin-bottom: 6px;
+}
+
+footer {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #888;
+    text-align: center;
+}
+</style>
+
+</head>
 <body>
 
-  <h1>SHIVARAM DOULAGAR</h1>
-  <p>Student | Web Developer</p>
+<div class="container">
 
-  <hr>
+    <!-- Profile Image -->
+    <img src="https://via.placeholder.com/150" alt="Profile Photo" class="profile-img">
 
-  <h2>About Me</h2>
-  <p>
-    Hello! I am a student learning web development.
-    I like creating websites using HTML.
-  </p>
+    <!-- Name -->
+    <h1>Shivaram Doulagar</h1>
+    <h3>Student | Web Developer</h3>
 
-  <h2>Education</h2>
-  <ul>
-    <li>Bachelor's Degree – Your College Name</li>
-    <li>High School </li>
-  </ul>
+    <!-- About -->
+    <div class="section">
+        <h2>About Me</h2>
+        <p>
+            I am passionate about web development and creating clean, responsive websites.
+            I enjoy learning new technologies and improving my coding skills every day.
+        </p>
+    </div>
 
-  <h2>Skills</h2>
-  <ul>
-    <li>HTML</li>
-    <li>Basic CSS</li>
-    <li>Computer Fundamentals</li>
-  </ul>
+    <!-- Education -->
+    <div class="section">
+        <h2>Education</h2>
+        <ul>
+            <li>Bachelor's Degree – Your College Name</li>
+            <li>Intermediate – Your School Name</li>
+        </ul>
+    </div>
 
-  <h2>Projects</h2>
-  <ol>
-    <li>Personal Profile Website</li>
-    <li>Simple Resume Page</li>
-  </ol>
+    <!-- Skills -->
+    <div class="section">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript (Basic)</li>
+            <li>Python (Basic)</li>
+        </ul>
+    </div>
 
-  <h2>Contact</h2>
-  <p>Email: shivaramdoulagar16@email.com</p>
-  <p>GitHub: https://github.com/yourusername</p>
+    <!-- Projects -->
+    <div class="section">
+        <h2>Projects</h2>
+        <ul>
+            <li>Personal Portfolio Website</li>
+            <li>Simple Calculator</li>
+            <li>Student Registration Form</li>
+        </ul>
+    </div>
 
-  <hr>
+    <!-- Social Links -->
+    <div class="section">
+        <h2>Social Links</h2>
+        <p>
+            <a href="#">GitHub</a> |
+            <a href="#">LinkedIn</a> |
+            <a href="#">Instagram</a>
+        </p>
+    </div>
 
-  <p>© 2026 ShivaRam Doulagar</p>
+    <!-- Contact -->
+    <div class="section contact">
+        <h2>Contact</h2>
+        <p>Email: yourmail@example.com</p>
+        <p>Phone: +91 9876543210</p>
+    </div>
+
+    <footer>
+        ©️ 2026 Shivaram Doulagar | All Rights Reserved
+    </footer>
+
+</div>
 
 </body>
 </html>
